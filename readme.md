@@ -4,8 +4,6 @@
 
 being an abstract contract this contract is meant to be extended by other contracts that want to implement their own reward distribution mechanisms in the **aave protocol**
 
-https://img.shields.io/badge/aave-reward!-brightgreen
-
 RewardsDistributor is an _abstract contract_ that manages multiple staking distributions with multiple rewards. This contract licensed under the BUSL-1.1 is intended to be used by other parent contract on the aave protocol as an accounting contract, tracking the distribution of rewards for a given set of decentralized non-custodial liquidity protocol provided by AAVE.
 
 ##### Prerequisites
@@ -132,8 +130,5 @@ These functions are related to updating the state of the distribution for a spec
 2. _getUserReward function combines the results of the previous functions to calculate the total accrued but unclaimed rewards for a user across all incentivized assets.
 
 this abstarct contract also includes two external functions, getAssetDecimals and getEmissionManager, that allow external contracts to retrieve information about the assets and the emission manager used by the rewards distribution system.
-
-
-https://img.shields.io/badge/aave-reward!-brightgreen
 
 
