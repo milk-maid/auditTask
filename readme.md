@@ -1,8 +1,8 @@
-# aave-v3-periphery > RewardsDistributor
-
 ![RewardsDistributor](./img/aave_Reward_Distributor.png "aaveRewards")
 
-being an anstract contract this contract is meant to be extended by other contracts that want to implement their own reward distribution mechanisms in the **aave protocol**
+# aave-v3-periphery > RewardsDistributor
+
+being an abstract contract this contract is meant to be extended by other contracts that want to implement their own reward distribution mechanisms in the **aave protocol**
 
 https://img.shields.io/badge/aave-reward!-brightgreen
 
